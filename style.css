@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-main{
+    width: 100%;
+    height: 56rem;
+    background: linear-gradient(90deg, rgba(31, 36, 44, 0.64) 32.85%, rgba(31, 36, 44, 0.00) 100%), url('images/car-cover.jpg'), lightgray 0px -119.659px / 100% 142.24% no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    padding-top: 26.25rem;
+}
+
+.head-button{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-con{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 58rem;
+}
+
+
+.header-con h1{
+color: #FFF;
+font-size: 5.9375rem;
+font-style: normal;
+font-weight:bolder;
+line-height: 120%;
+}
+
+.header-con p{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#b-left{
+border-radius: 0.375rem;
+background: var(--primary-primary, #2272B4);
+border: 0;
+color: white;
+display: flex;
+padding: 1rem 2.625rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+}
+
+#b-left:hover{
+    scale: 1.05;
+}
+
+#b-right{
+border-radius: 0.375rem;
+border: 1px solid rgba(255, 255, 255, 0.60);
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(12px);
+display: flex;
+padding: 1rem 2.625rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+
+}
+
+#b-right:hover{
+    scale: 1.05;
+}
+
+
+
+
+@media (max-width:1280px){
+
+.header-con{
+    max-width: 700px;
+}
+
+.header-con h1{
+    font-size: 3rem ;
+
+}
+
+
+
+}
+
+
+@media (max-width:769px){
+
+
+
+}
+
+@media (max-width:481){
+
+    .head-button{
+        gap: 1rem;
+    }
+}
+
+@media(max-width:350px){
+    .head-button{
+        flex-direction: column;
+    }
+    .header-con h1{
+        font-size: 2rem ;
+    
+    }
+    #b-left{
+        max-width: 11.5rem;
+        font-size: 0.75rem;
+    }
+
+
+
+}
