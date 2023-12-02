@@ -639,6 +639,14 @@ line-height: 1.5rem;
     width: 100%;
 }
 
+
+.sec-4-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 @media (max-width:1280px){
 
     .SEC-8{
@@ -690,6 +698,11 @@ line-height: 1.5rem;
 
 @media (max-width:769px){
 
+#img-1{
+    max-width: 33rem;
+}
+
+
 .SEC-8{
     display: none;
 }
@@ -729,6 +742,11 @@ line-height: 1.5rem;
 }
 
 @media (max-width:481px){
+
+
+    #img-1{
+        max-width: 20rem;
+    }
 
     .head-button{
         flex-direction: column;
@@ -796,6 +814,10 @@ line-height: 1.5rem;
 
 @media(max-width:350px){
    
+    #img-1{
+        max-width: 15rem;
+    }
+
    .sec-6-img img{
     max-width: 15rem;
     height: auto;
