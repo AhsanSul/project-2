@@ -526,46 +526,7 @@ color:#2272B4 ;
 
 
 
-@media (max-width:1280px){
 
-    .sec-7{
-        max-width: 80%;
-    }
-
-
-
-    .sec-6-2{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 3rem;
-     }
-.sec-5-div{
-    flex-direction: column;
-    height: 60rem;
-}
-
-.sec-5-con{
-    text-align: center;
-}
-
-.header-con{
-    max-width: 700px;
-}
-
-.header-con h1{
-    font-size: 3rem ;
-
-}
-.sec-2-box{
-    flex-direction: column;
-}
-
-.sec-3-boxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-}
 
 .sec-7-img img{
     width: 18rem;
@@ -616,6 +577,7 @@ line-height: 120%;
 .icons{
     display: flex;
     gap: 1.5rem ;
+    color: #939597;
 }
 
 .sec-left p{
@@ -626,10 +588,116 @@ font-weight: 400;
 line-height: 1.5rem;
 }
 
+.footer-content{
+    display: flex;
+    gap: 4rem;
+}
+
+.footer li{
+    list-style: none;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.SEC-8{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    padding: 0 5%;
+    margin: 4rem auto;
+    width: 100%;
+
+}
+
+.linebr{
+    border: 1px solid #EAECF0;
+    width: 90%;
+    padding: 0 5%;
+    margin: auto;
+}
+
+.last-right{
+    display: flex;
+    gap: 3rem;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+@media (max-width:1280px){
+
+    .SEC-8{
+        margin-top: 14rem;
+    }
+
+    .sec-7{
+        max-width: 80%;
+    }
+
+    .sec-left{
+        display: none;
+    }
+
+    .sec-6-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+     }
+.sec-5-div{
+    flex-direction: column;
+    height: 60rem;
+}
+
+.sec-5-con{
+    text-align: center;
+}
+
+.header-con{
+    max-width: 700px;
+}
+
+.header-con h1{
+    font-size: 3rem ;
+
+}
+.sec-2-box{
+    flex-direction: column;
+}
+
+.sec-3-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+}
 
 
 
 @media (max-width:769px){
+
+.SEC-8{
+    display: none;
+}
+
+.last{
+    flex-direction: column;
+    gap: 3rem;
+}
 
     .sec-7{
         flex-direction: column;
